@@ -23,5 +23,6 @@
         "react"
     ],
     "rules": {
+        "import/no-unresolved": "off"
     }
 }
