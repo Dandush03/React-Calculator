@@ -23,6 +23,6 @@
         "react"
     ],
     "rules": {
-        "import/no-unresolved": "0"
+        "import/no-unresolved": 0
     }
 }
