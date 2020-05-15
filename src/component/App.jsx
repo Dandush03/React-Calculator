@@ -7,7 +7,7 @@ import Display from './Display';
 
 function App() {
   return (
-    <div className="app">
+    <div className="calculator">
       <Display />
       <ButtonPanel />
     </div>
