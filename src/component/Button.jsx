@@ -25,7 +25,7 @@ export default class Button extends Component {
 
   render() {
     return (
-      <button type="button" style={this.style} name={this.name}>{this.value}</button>
+      <button type="button" style={this.style}>{this.name}</button>
     );
   }
 }
