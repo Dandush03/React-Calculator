@@ -19,11 +19,13 @@ export default class App extends Component {
   btnClick = arg => {
     const { state } = this;
     this.setState(Calculate(state, arg));
+    // eslint-disable-next-line no-console
     console.log(state);
   }
 
   render() {
-    const { next, total } = this.state;
+    // eslint-disable-next-line no-unused-vars
+    const { next, total, operation } = this.state;
     return (
       <div className="calculator">
         <Display />
