@@ -5,17 +5,15 @@ export default class Button extends Component {
   constructor(props) {
     super(props);
     this.name = props.name;
-    this.value = props.value;
   }
 
   render() {
     return (
-      <button type="button" name={this.name}>{this.value}</button>
+      <button type="button">{this.name}</button>
     );
   }
 }
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
 };
