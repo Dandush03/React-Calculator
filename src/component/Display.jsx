@@ -4,13 +4,16 @@ import PropTypes from 'prop-types';
 export default class Display extends Component {
   constructor(props) {
     super(props);
-    this.result = props.result;
+    const { result } = props;
+    // eslint-disable-next-line react/no-unused-state
+    this.state = { result };
   }
 
   render() {
+    const { props: { result } } = this;
     return (
       <div className="display">
-        <h2>{this.result}</h2>
+        <h2>{result}</h2>
       </div>
     );
   }
