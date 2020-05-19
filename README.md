@@ -4,7 +4,7 @@
 
 #### Microverse First React Project
 
-This Stage is the setup stage where I created and deploy to heroku the main configuration
+Calculator App
 
 ---
 

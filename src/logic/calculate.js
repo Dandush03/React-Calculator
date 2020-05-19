@@ -54,6 +54,7 @@ const Calculate = (data, buttonName) => {
         next = '0';
         operation = buttonName;
       } else if (!next && !operation) {
+        // eslint-disable-next-line prefer-destructuring
         total = data.total;
         next = '0';
         operation = buttonName;

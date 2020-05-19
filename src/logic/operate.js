@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/extensions
 import Big from 'big.js';
 
 const Operate = (a, b, op) => {
